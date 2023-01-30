@@ -24,8 +24,8 @@ let WIDGET_FONT = 'SF UI Display';
 let WIDGET_FONT_BOLD = 'SF UI Display Bold';
 let BMW_SERVER_HOST = 'https://myprofile.bmw.com.cn';
 let APP_HOST_SERVER = 'https://bmw-linker.com';
-let JS_CDN_SERVER = 'https://cdn.jsdelivr.net/gh/opp100/bmw-scriptable-widgets@main/Publish/';
-let JS_LIB_CDN_SERVER = 'https://cdn.jsdelivr.net/gh/opp100/bmw-scriptable-widgets/lib';
+let JS_CDN_SERVER = 'https://cdn.jsdelivr.net/gh/liyingjun/bmw-scriptable-widgets@main/Publish/';
+let JS_LIB_CDN_SERVER = 'https://cdn.jsdelivr.net/gh/liyingjun/bmw-scriptable-widgets/lib';
 
 let DEFAULT_BG_COLOR_LIGHT = '#FFFFFF';
 let DEFAULT_BG_COLOR_DARK = '#2B2B2B';
@@ -35,7 +35,7 @@ let DEFAULT_LOGO_DARK = 'https://z3.ax1x.com/2021/11/01/ICaqu6.png';
 // header is might be used for preventing the bmw block the external api?
 let BMW_HEADERS = {
     'Content-Type': 'application/json; charset=utf-8',
-    'x-user-agent': 'ios(15.4.1);bmw;2.3.0(13603)'
+    'x-user-agent': 'ios(15.4.1);bmw;2.5.0(14963)'
 };
 
 // setup local storage keys
